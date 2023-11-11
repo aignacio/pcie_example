@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<wave_config>
+	<wave_state>
+	</wave_state>
+	<db_ref_list>
+		<db_ref path="/home/aignacio/projects/pcie_example/pcie_example/pcie_example.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1" type="auto">
+			<top_modules>
+				<top_module name="top">
+				</top_module>
+			</top_modules>
+		</db_ref>
+	</db_ref_list>
+	<WVObjectSize size="5">
+	</WVObjectSize>
+	<wvobject fp_name="c_counter_binary_0_Q" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">c_counter_binary_0_Q[31:0]</obj_property>
+		<obj_property name="ObjectShortName">c_counter_binary_0_Q[31:0]</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="axi_pcie_0_user_link_up" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">axi_pcie_0_user_link_up</obj_property>
+		<obj_property name="ObjectShortName">axi_pcie_0_user_link_up</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="proc_sys_reset_0_interconnect_aresetn" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">proc_sys_reset_0_interconnect_aresetn</obj_property>
+		<obj_property name="ObjectShortName">proc_sys_reset_0_interconnect_aresetn</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="axi_pcie_0_mmcm_lock" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">axi_pcie_0_mmcm_lock</obj_property>
+		<obj_property name="ObjectShortName">axi_pcie_0_mmcm_lock</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="axi_pcie_0_interrupt_out" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">axi_pcie_0_interrupt_out</obj_property>
+		<obj_property name="ObjectShortName">axi_pcie_0_interrupt_out</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+</wave_config>
+

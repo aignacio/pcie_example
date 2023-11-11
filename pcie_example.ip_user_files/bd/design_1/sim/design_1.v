@@ -1,7 +1,7 @@
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
-//Date        : Sat Nov 11 11:18:45 2023
+//Date        : Sat Nov 11 11:46:47 2023
 //Host        : bbee-serv running 64-bit Ubuntu 22.04.3 LTS
 //Command     : generate_target design_1.bd
 //Design      : design_1
@@ -13,24 +13,20 @@
 module design_1
    (EXT_RESET,
     LEDS,
-    LINK_UP,
     PCIE_REF_CLK_N,
     PCIE_REF_CLK_P,
     PCIE_RX_N,
     PCIE_RX_P,
     PCIE_TX_N,
-    PCIE_TX_P,
-    RESET_VAL);
+    PCIE_TX_P);
   (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 RST.EXT_RESET RST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME RST.EXT_RESET, INSERT_VIP 0, POLARITY ACTIVE_LOW" *) input EXT_RESET;
   output [7:0]LEDS;
-  (* X_INTERFACE_INFO = "xilinx.com:signal:data:1.0 DATA.LINK_UP DATA" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME DATA.LINK_UP, LAYERED_METADATA undef" *) output LINK_UP;
   (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 CLK.PCIE_REF_CLK_N CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME CLK.PCIE_REF_CLK_N, CLK_DOMAIN design_1_PCIE_REF_CLK_N, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, INSERT_VIP 0, PHASE 0.0" *) input PCIE_REF_CLK_N;
   (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 CLK.PCIE_REF_CLK_P CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME CLK.PCIE_REF_CLK_P, CLK_DOMAIN design_1_PCIE_REF_CLK_P, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, INSERT_VIP 0, PHASE 0.0" *) input PCIE_REF_CLK_P;
   (* X_INTERFACE_INFO = "xilinx.com:signal:data:1.0 DATA.PCIE_RX_N DATA" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME DATA.PCIE_RX_N, LAYERED_METADATA undef" *) input [3:0]PCIE_RX_N;
   (* X_INTERFACE_INFO = "xilinx.com:signal:data:1.0 DATA.PCIE_RX_P DATA" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME DATA.PCIE_RX_P, LAYERED_METADATA undef" *) input [3:0]PCIE_RX_P;
   (* X_INTERFACE_INFO = "xilinx.com:signal:data:1.0 DATA.PCIE_TX_N DATA" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME DATA.PCIE_TX_N, LAYERED_METADATA undef" *) output [3:0]PCIE_TX_N;
   (* X_INTERFACE_INFO = "xilinx.com:signal:data:1.0 DATA.PCIE_TX_P DATA" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME DATA.PCIE_TX_P, LAYERED_METADATA undef" *) output [3:0]PCIE_TX_P;
-  (* X_INTERFACE_INFO = "xilinx.com:signal:data:1.0 DATA.RESET_VAL DATA" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME DATA.RESET_VAL, LAYERED_METADATA undef" *) output [0:0]RESET_VAL;
 
   wire EXT_RESET_1;
   wire PCIE_REF_CLK_N_1;
@@ -187,14 +183,12 @@ module design_1
 
   assign EXT_RESET_1 = EXT_RESET;
   assign LEDS[7:0] = axi_gpio_0_gpio_io_o;
-  assign LINK_UP = axi_pcie_0_user_link_up;
   assign PCIE_REF_CLK_N_1 = PCIE_REF_CLK_N;
   assign PCIE_REF_CLK_P_1 = PCIE_REF_CLK_P;
   assign PCIE_RX_P1_1 = PCIE_RX_N[3:0];
   assign PCIE_RX_P_1 = PCIE_RX_P[3:0];
   assign PCIE_TX_N[3:0] = axi_pcie_0_pci_exp_txn;
   assign PCIE_TX_P[3:0] = axi_pcie_0_pci_exp_txp;
-  assign RESET_VAL[0] = proc_sys_reset_0_interconnect_aresetn;
   design_1_axi_bram_ctrl_0_0 axi_bram_ctrl_0
        (.bram_addr_a(axi_bram_ctrl_0_BRAM_PORTA_ADDR),
         .bram_addr_b(axi_bram_ctrl_0_BRAM_PORTB_ADDR),
