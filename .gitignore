@@ -84,4 +84,5 @@
 !*.elf
 !*.bmm
 !*.xmp
-pcie_example.runs/
+pcie_example.runs/**
+pcie_example.cache/**
