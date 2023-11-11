@@ -1,0 +1,81 @@
+verilog xil_defaultlib --include "/tools/Xilinx/Vivado/2022.2/data/xilinx_vip/include" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.srcs/sources_1/bd/design_1/ipshared/1b7e/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.srcs/sources_1/bd/design_1/ipshared/122e/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.srcs/sources_1/bd/design_1/ipshared/f0b6/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.srcs/sources_1/bd/design_1/ipshared/66be/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ipshared/f0b6/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ipshared/66be/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.srcs/sources_1/bd/design_1/ipshared/b205/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.srcs/sources_1/bd/design_1/ipshared/fd26/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ipshared/1b7e/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ipshared/122e/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ipshared/fd26/hdl/verilog" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_axi_pcie_0_0/ip_0/sim/design_1_axi_pcie_0_0_jtag.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_axi_pcie_0_0/hdl/axi_pcie_v2_9_8_pcie_7x_v2_0_2_pipe_clock.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_axi_pcie_0_0/hdl/axi_pcie_v2_9_8_pcie_7x_v2_0_2_qpll_wrapper.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_axi_pcie_0_0/hdl/axi_pcie_v2_9_8_pcie_7x_v2_0_2_gt_common.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_axi_pcie_0_0/hdl/axi_pcie_v2_9_8_pcie_7x_v2_0_2_qpll_drp.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_axi_pcie_0_0/hdl/axi_pcie_v2_9_8_pcie_7x_v2_0_2_gtp_cpllpd_ovrd.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_axi_pcie_0_0/hdl/design_1_axi_pcie_0_0_pcie_7x_v2_0_2.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_axi_pcie_0_0/source/design_1_axi_pcie_0_0_debug_probes.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_axi_pcie_0_0/source/design_1_axi_pcie_0_0_debug_axi4l_s.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_axi_pcie_0_0/source/design_1_axi_pcie_0_0_debug_wrapper.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_axi_pcie_0_0/trigger.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_axi_pcie_0_0/sim/design_1_axi_pcie_0_0.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_xlconstant_0_2/sim/design_1_xlconstant_0_2.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_0/sim/bd_48ac_one_0.v" \
+
+sv xil_defaultlib --include "/tools/Xilinx/Vivado/2022.2/data/xilinx_vip/include" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.srcs/sources_1/bd/design_1/ipshared/1b7e/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.srcs/sources_1/bd/design_1/ipshared/122e/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.srcs/sources_1/bd/design_1/ipshared/f0b6/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.srcs/sources_1/bd/design_1/ipshared/66be/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ipshared/f0b6/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ipshared/66be/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.srcs/sources_1/bd/design_1/ipshared/b205/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.srcs/sources_1/bd/design_1/ipshared/fd26/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ipshared/1b7e/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ipshared/122e/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ipshared/fd26/hdl/verilog" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_2/sim/bd_48ac_arsw_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_3/sim/bd_48ac_rsw_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_4/sim/bd_48ac_awsw_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_5/sim/bd_48ac_wsw_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_6/sim/bd_48ac_bsw_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_7/sim/bd_48ac_s00mmu_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_8/sim/bd_48ac_s00tr_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_9/sim/bd_48ac_s00sic_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_10/sim/bd_48ac_s00a2s_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_11/sim/bd_48ac_sarn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_12/sim/bd_48ac_srn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_13/sim/bd_48ac_sawn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_14/sim/bd_48ac_swn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_15/sim/bd_48ac_sbn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_16/sim/bd_48ac_m00s2a_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_17/sim/bd_48ac_m00arn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_18/sim/bd_48ac_m00rn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_19/sim/bd_48ac_m00awn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_20/sim/bd_48ac_m00wn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_21/sim/bd_48ac_m00bn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_22/sim/bd_48ac_m00e_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_23/sim/bd_48ac_m01s2a_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_24/sim/bd_48ac_m01arn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_25/sim/bd_48ac_m01rn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_26/sim/bd_48ac_m01awn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_27/sim/bd_48ac_m01wn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_28/sim/bd_48ac_m01bn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_29/sim/bd_48ac_m01e_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_30/sim/bd_48ac_m02s2a_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_31/sim/bd_48ac_m02arn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_32/sim/bd_48ac_m02rn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_33/sim/bd_48ac_m02awn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_34/sim/bd_48ac_m02wn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_35/sim/bd_48ac_m02bn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_36/sim/bd_48ac_m02e_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_37/sim/bd_48ac_m03s2a_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_38/sim/bd_48ac_m03arn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_39/sim/bd_48ac_m03rn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_40/sim/bd_48ac_m03awn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_41/sim/bd_48ac_m03wn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_42/sim/bd_48ac_m03bn_0.sv" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_43/sim/bd_48ac_m03e_0.sv" \
+
+verilog xil_defaultlib --include "/tools/Xilinx/Vivado/2022.2/data/xilinx_vip/include" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.srcs/sources_1/bd/design_1/ipshared/1b7e/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.srcs/sources_1/bd/design_1/ipshared/122e/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.srcs/sources_1/bd/design_1/ipshared/f0b6/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.srcs/sources_1/bd/design_1/ipshared/66be/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ipshared/f0b6/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ipshared/66be/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.srcs/sources_1/bd/design_1/ipshared/b205/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.srcs/sources_1/bd/design_1/ipshared/fd26/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ipshared/1b7e/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ipshared/122e/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog" --include "../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ipshared/fd26/hdl/verilog" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/sim/bd_48ac.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/sim/design_1_smartconnect_0_0.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_blk_mem_gen_0_0/sim/design_1_blk_mem_gen_0_0.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/sim/bd_f60c_ila_lib_0.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/bd_f60c_g_inst_0_gigantic_mux.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/sim/bd_f60c_g_inst_0.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_2/sim/bd_f60c_slot_0_aw_0.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_3/sim/bd_f60c_slot_0_w_0.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_4/sim/bd_f60c_slot_0_b_0.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_5/sim/bd_f60c_slot_0_ar_0.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_6/sim/bd_f60c_slot_0_r_0.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/sim/bd_f60c.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/sim/design_1_system_ila_0_0.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/ip/design_1_ila_0_2/sim/design_1_ila_0_2.v" \
+"../../../../../../mpsoc_pcie/mpsoc_pcie/mpsoc_pcie.gen/sources_1/bd/design_1/sim/design_1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
